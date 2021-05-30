@@ -1,0 +1,180 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  background: url(pic/background/digital.jpg);
+  background-size: cover;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  margin-bottom: 15px;
+  background-color: ;
+  border-radius: 3px;
+}
+
+.submitMess {
+  display: inline-block;
+  background-color: #eee;
+  width: 40%;
+  margin-top: 15px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.submitMess:hover, .searchSubmit:hover {
+  background-color: coral;
+  cursor: pointer;
+}
+
+.sendMessageForm {
+  border-radius: 5px;
+  padding: 15px;
+  width: 30%;
+  background: rgba(103, 255, 89, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sendMessageForm textarea {
+  width: 100%;
+}
+
+.captcha {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.captcha label {
+  display: block;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 3px;
+}
+
+.link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: grey;
+}
+
+.link label {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.link:hover, .link label:hover {
+  color: #fff;
+}
+
+.search {
+  padding-left: 30px;
+  width: 100%;
+  background: rgba(103, 255, 89, 0.3);
+}
+
+.pagination {
+  margin-left: 40%;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.pagination li {
+  text-align: center;
+  font-size: 20px;
+  display:inline-block;
+  width: 30px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td:first-child {
+  background: rgba(103, 255, 89, 0.5);
+  color: #000;
+  padding: 10px 20px;
+}
+
+th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+td {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+
+.searchSubmit {
+  margin-left: 50px;
+  background-color: #eee;
+  width: 20%;
+  margin-top: 15px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.back {
+  font-size: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: grey;
+}
+
+.back label {
+font-size: 50px;
+cursor: pointer;
+}
+
+.back:hover, .back label:hover {
+  color: #fff;
+}
+
+.show_res {
+  width: 50%;
+  display: inline-block;
+  margin-left: 15px;
+}
